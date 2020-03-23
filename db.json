@@ -1,365 +1,275 @@
 {
-  "alunos": [
-    { "ra": 19162, "nome": "Antônio Hideto Kotsubo", "codCurso": 28 },
-    { "ra": 19170, "nome": "Gabriel Alves de Arruda", "codCurso": 28 },
-    { "ra": 19175, "nome": "Guilherme Brentan de Oliveira", "codCurso": 28 },
-    { "ra": 19190, "nome": "Matheus Seiji Luna Noda", "codCurso": 28 },
-    { "ra": 19192, "nome": "Nícolas Maisonnette", "codCurso": 28 },
-    { "ra": 20129, "nome": "Fábio Alves dos Santos", "codCurso": 19 },
-    { "ra": 20143, "nome": "Ligia Keiko Carvalho", "codCurso": 19 },
-    { "ra": 20154, "nome": "Rafael Scalabrin Dosso", "codCurso": 19 }
-  ],
   "politicos": [
-      {
-        "id": 141518,
-        "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/141518",
-        "nome": "Paulo Pereira da Silva",
-        "partido": "SOLIDARIEDADE",
-        "uriPartido": "https://dadosabertos.camara.leg.br/api/v2/partidos/37904",
-        "estado": "SP",
-        "idLegislatura": 56,
-        "foto": "https://www.camara.leg.br/internet/deputado/bandep/141518.jpg",
-        "email": "dep.paulopereiradasilva@camara.leg.br",
-        "gastos": "105.321,32",
-        "faltas": 123,
-        "presencas": 48,
-        "propostas": 7,
-        "processos": 9,
-        "tipo": "Deputado Federal"
-      },
-      {
-        "id": 74400,
-        "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/74400",
-        "nome": "Paulo Pimenta",
-        "partido": "PT",
-        "uriPartido": "https://dadosabertos.camara.leg.br/api/v2/partidos/36844",
-        "estado": "RS",
-        "idLegislatura": 56,
-        "foto": "https://www.camara.leg.br/internet/deputado/bandep/74400.jpg",
-        "email": "dep.paulopimenta@camara.leg.br",
-        "gastos": "087.321,32",
-        "faltas": 13,
-        "presencas": 321,
-        "propostas": 23,
-        "processos": 18,
-        "tipo": "Deputado Federal"
-      },
-      {
-        "id": 133968,
-        "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/133968",
-        "nome": "Paulo Ramos",
-        "partido": "PDT",
-        "uriPartido": "https://dadosabertos.camara.leg.br/api/v2/partidos/36786",
-        "estado": "RJ",
-        "idLegislatura": 56,
-        "foto": "https://www.camara.leg.br/internet/deputado/bandep/133968.jpg",
-        "email": "dep.pauloramos@camara.leg.br",
-        "gastos": "090.213,31",
-        "faltas": 59,
-        "presencas": 123,
-        "propostas": 123,
-        "processos": 12,
-        "tipo": "Deputado Federal"
-      },
-      {
-        "id": 141488,
-        "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/141488",
-        "nome": "Paulo Teixeira",
-        "partido": "PT",
-        "uriPartido": "https://dadosabertos.camara.leg.br/api/v2/partidos/36844",
-        "estado": "SP",
-        "idLegislatura": 56,
-        "foto": "https://www.camara.leg.br/internet/deputado/bandep/141488.jpg",
-        "email": "dep.pauloteixeira@camara.leg.br",
-        "gastos": "105.213,21",
-        "faltas": 51,
-        "presencas": 73,
-        "propostas": 9,
-        "processos": 28,
-        "tipo": "Deputado Federal"
-      },
-      {
-        "id": 90201,
-        "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/90201",
-        "nome": "Pedro Augusto Bezerra",
-        "partido": "PTB",
-        "uriPartido": "https://dadosabertos.camara.leg.br/api/v2/partidos/36845",
-        "estado": "CE",
-        "idLegislatura": 56,
-        "foto": "https://www.camara.leg.br/internet/deputado/bandep/90201.jpg",
-        "email": "dep.pedroaugustobezerra@camara.leg.br",
-        "gastos": "203.213,21",
-        "faltas": 90,
-        "presencas": 2,
-        "propostas": 213,
-        "processos": 123,
-        "tipo": "Deputado Federal"
-      },
-      {
-        "id": 178912,
-        "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/178912",
-        "nome": "Pedro Cunha Lima",
-        "partido": "PSDB",
-        "uriPartido": "https://dadosabertos.camara.leg.br/api/v2/partidos/36835",
-        "estado": "PB",
-        "idLegislatura": 56,
-        "foto": "https://www.camara.leg.br/internet/deputado/bandep/178912.jpg",
-        "email": "dep.pedrocunhalima@camara.leg.br",
-        "gastos": "087.321,12",
-        "faltas": 123,
-        "presencas": 21,
-        "propostas": 3,
-        "processos": 2,
-        "tipo": "Deputado Federal"
-      },
-      {
-        "id": 122974,
-        "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/122974",
-        "nome": "Pedro Lucas Fernandes",
-        "partido": "PTB",
-        "uriPartido": "https://dadosabertos.camara.leg.br/api/v2/partidos/36845",
-        "estado": "MA",
-        "idLegislatura": 56,
-        "foto": "https://www.camara.leg.br/internet/deputado/bandep/122974.jpg",
-        "email": "dep.pedrolucasfernandes@camara.leg.br",
-        "gastos": "312.111,32",
-        "faltas": 97,
-        "presencas": 11,
-        "propostas": 56,
-        "processos": 21,
-        "tipo": "Deputado Federal"
-      },
-      {
-        "id": 204395,
-        "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/204395",
-        "nome": "Pedro Lupion",
-        "partido": "DEM",
-        "uriPartido": "https://dadosabertos.camara.leg.br/api/v2/partidos/36769",
-        "estado": "PR",
-        "idLegislatura": 56,
-        "foto": "https://www.camara.leg.br/internet/deputado/bandep/204395.jpg",
-        "email": "dep.pedrolupion@camara.leg.br",
-        "gastos": "090.323,12",
-        "faltas": 68,
-        "presencas": 211,
-        "propostas": 12,
-        "processos": 22,
-        "tipo": "Deputado Federal"
-      },
-      {
-        "id": 122158,
-        "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/122158",
-        "nome": "Pedro Paulo",
-        "partido": "DEM",
-        "uriPartido": "https://dadosabertos.camara.leg.br/api/v2/partidos/36769",
-        "estado": "RJ",
-        "idLegislatura": 56,
-        "foto": "https://www.camara.leg.br/internet/deputado/bandep/122158.jpg",
-        "email": "dep.pedropaulo@camara.leg.br",
-        "gastos": "090.323,12",
-        "faltas": 473,
-        "presencas": 2,
-        "propostas": 182,
-        "processos": 25,
-        "tipo": "Deputado Federal"
-      },
-      {
-        "id": 160604,
-        "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/160604",
-        "nome": "Pedro Uczai",
-        "partido": "PT",
-        "uriPartido": "https://dadosabertos.camara.leg.br/api/v2/partidos/36844",
-        "estado": "SC",
-        "idLegislatura": 56,
-        "foto": "https://www.camara.leg.br/internet/deputado/bandep/160604.jpg",
-        "email": "dep.pedrouczai@camara.leg.br",
-        "gastos": "077.233,12",
-        "faltas": 77,
-        "presencas": 71,
-        "propostas": 37,
-        "processos": 72,
-        "tipo": "Deputado Federal"
-      },
-      {
-        "id": 204406,
-        "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/204406",
-        "nome": "Pedro Westphalen",
-        "partido": "PP",
-        "uriPartido": "https://dadosabertos.camara.leg.br/api/v2/partidos/37903",
-        "estado": "RS",
-        "idLegislatura": 56,
-        "foto": "https://www.camara.leg.br/internet/deputado/bandep/204406.jpg",
-        "email": "dep.pedrowestphalen@camara.leg.br",        
-	"gastos": "090.323,12",
-        "faltas": 122,
-        "presencas": 13,
-        "propostas": 12,
-        "processos": 23,
-        "tipo": "Deputado Federal"
-      }
+    {
+      "id": 141518,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/141518",
+      "nome": "Paulo Pereira da Silva",
+      "partido": "SOLIDARIEDADE",
+      "uriPartido": "https://dadosabertos.camara.leg.br/api/v2/partidos/37904",
+      "estado": "SP",
+      "idLegislatura": 56,
+      "foto": "https://www.camara.leg.br/internet/deputado/bandep/141518.jpg",
+      "email": "dep.paulopereiradasilva@camara.leg.br",
+      "gastos": "105.321,32",
+      "faltas": 123,
+      "presencas": 48,
+      "propostas": 7,
+      "processos": 9,
+      "tipo": "Deputado Federal"
+    },
+    {
+      "id": 74400,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/74400",
+      "nome": "Paulo Pimenta",
+      "partido": "PT",
+      "uriPartido": "https://dadosabertos.camara.leg.br/api/v2/partidos/36844",
+      "estado": "RS",
+      "idLegislatura": 56,
+      "foto": "https://www.camara.leg.br/internet/deputado/bandep/74400.jpg",
+      "email": "dep.paulopimenta@camara.leg.br",
+      "gastos": "087.321,32",
+      "faltas": 13,
+      "presencas": 321,
+      "propostas": 23,
+      "processos": 18,
+      "tipo": "Deputado Federal"
+    },
+    {
+      "id": 133968,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/133968",
+      "nome": "Paulo Ramos",
+      "partido": "PDT",
+      "uriPartido": "https://dadosabertos.camara.leg.br/api/v2/partidos/36786",
+      "estado": "RJ",
+      "idLegislatura": 56,
+      "foto": "https://www.camara.leg.br/internet/deputado/bandep/133968.jpg",
+      "email": "dep.pauloramos@camara.leg.br",
+      "gastos": "090.213,31",
+      "faltas": 59,
+      "presencas": 123,
+      "propostas": 123,
+      "processos": 12,
+      "tipo": "Deputado Federal"
+    },
+    {
+      "id": 141488,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/141488",
+      "nome": "Paulo Teixeira",
+      "partido": "PT",
+      "uriPartido": "https://dadosabertos.camara.leg.br/api/v2/partidos/36844",
+      "estado": "SP",
+      "idLegislatura": 56,
+      "foto": "https://www.camara.leg.br/internet/deputado/bandep/141488.jpg",
+      "email": "dep.pauloteixeira@camara.leg.br",
+      "gastos": "105.213,21",
+      "faltas": 51,
+      "presencas": 73,
+      "propostas": 9,
+      "processos": 28,
+      "tipo": "Deputado Federal"
+    },
+    {
+      "id": 90201,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/90201",
+      "nome": "Pedro Augusto Bezerra",
+      "partido": "PTB",
+      "uriPartido": "https://dadosabertos.camara.leg.br/api/v2/partidos/36845",
+      "estado": "CE",
+      "idLegislatura": 56,
+      "foto": "https://www.camara.leg.br/internet/deputado/bandep/90201.jpg",
+      "email": "dep.pedroaugustobezerra@camara.leg.br",
+      "gastos": "203.213,21",
+      "faltas": 90,
+      "presencas": 2,
+      "propostas": 213,
+      "processos": 123,
+      "tipo": "Deputado Federal"
+    },
+    {
+      "id": 178912,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/178912",
+      "nome": "Pedro Cunha Lima",
+      "partido": "PSDB",
+      "uriPartido": "https://dadosabertos.camara.leg.br/api/v2/partidos/36835",
+      "estado": "PB",
+      "idLegislatura": 56,
+      "foto": "https://www.camara.leg.br/internet/deputado/bandep/178912.jpg",
+      "email": "dep.pedrocunhalima@camara.leg.br",
+      "gastos": "087.321,12",
+      "faltas": 123,
+      "presencas": 21,
+      "propostas": 3,
+      "processos": 2,
+      "tipo": "Deputado Federal"
+    },
+    {
+      "id": 122974,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/122974",
+      "nome": "Pedro Lucas Fernandes",
+      "partido": "PTB",
+      "uriPartido": "https://dadosabertos.camara.leg.br/api/v2/partidos/36845",
+      "estado": "MA",
+      "idLegislatura": 56,
+      "foto": "https://www.camara.leg.br/internet/deputado/bandep/122974.jpg",
+      "email": "dep.pedrolucasfernandes@camara.leg.br",
+      "gastos": "312.111,32",
+      "faltas": 97,
+      "presencas": 11,
+      "propostas": 56,
+      "processos": 21,
+      "tipo": "Deputado Federal"
+    },
+    {
+      "id": 204395,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/204395",
+      "nome": "Pedro Lupion",
+      "partido": "DEM",
+      "uriPartido": "https://dadosabertos.camara.leg.br/api/v2/partidos/36769",
+      "estado": "PR",
+      "idLegislatura": 56,
+      "foto": "https://www.camara.leg.br/internet/deputado/bandep/204395.jpg",
+      "email": "dep.pedrolupion@camara.leg.br",
+      "gastos": "090.323,12",
+      "faltas": 68,
+      "presencas": 211,
+      "propostas": 12,
+      "processos": 22,
+      "tipo": "Deputado Federal"
+    },
+    {
+      "id": 122158,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/122158",
+      "nome": "Pedro Paulo",
+      "partido": "DEM",
+      "uriPartido": "https://dadosabertos.camara.leg.br/api/v2/partidos/36769",
+      "estado": "RJ",
+      "idLegislatura": 56,
+      "foto": "https://www.camara.leg.br/internet/deputado/bandep/122158.jpg",
+      "email": "dep.pedropaulo@camara.leg.br",
+      "gastos": "090.323,12",
+      "faltas": 473,
+      "presencas": 2,
+      "propostas": 182,
+      "processos": 25,
+      "tipo": "Deputado Federal"
+    },
+    {
+      "id": 160604,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/160604",
+      "nome": "Pedro Uczai",
+      "partido": "PT",
+      "uriPartido": "https://dadosabertos.camara.leg.br/api/v2/partidos/36844",
+      "estado": "SC",
+      "idLegislatura": 56,
+      "foto": "https://www.camara.leg.br/internet/deputado/bandep/160604.jpg",
+      "email": "dep.pedrouczai@camara.leg.br",
+      "gastos": "077.233,12",
+      "faltas": 77,
+      "presencas": 71,
+      "propostas": 37,
+      "processos": 72,
+      "tipo": "Deputado Federal"
+    },
+    {
+      "id": 204406,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/204406",
+      "nome": "Pedro Westphalen",
+      "partido": "PP",
+      "uriPartido": "https://dadosabertos.camara.leg.br/api/v2/partidos/37903",
+      "estado": "RS",
+      "idLegislatura": 56,
+      "foto": "https://www.camara.leg.br/internet/deputado/bandep/204406.jpg",
+      "email": "dep.pedrowestphalen@camara.leg.br",
+      "gastos": "090.323,12",
+      "faltas": 122,
+      "presencas": 13,
+      "propostas": 12,
+      "processos": 23,
+      "tipo": "Deputado Federal"
+    }
   ],
   "estados": [
     {
-      "cod": "6",
-      "sigla": "AC",
-      "nome": "ACRE",
-      "descricao": ""
+      "sigla": "AC"
     },
     {
-      "cod": "14",
-      "sigla": "AL",
-      "nome": "ALAGOAS",
-      "descricao": ""
+      "sigla": "AL"
     },
     {
-      "cod": "4",
-      "sigla": "AM",
-      "nome": "AMAZONAS",
-      "descricao": ""
+      "sigla": "AM"
     },
     {
-      "cod": "2",
-      "sigla": "AP",
-      "nome": "AMAPÁ",
-      "descricao": ""
+      "sigla": "AP"
     },
     {
-      "cod": "16",
-      "sigla": "BA",
-      "nome": "BAHIA",
-      "descricao": ""
+      "sigla": "BA"
     },
     {
-      "cod": "9",
-      "sigla": "CE",
-      "nome": "CEARÁ",
-      "descricao": ""
+      "sigla": "CE"
     },
     {
-      "cod": "22",
-      "sigla": "DF",
-      "nome": "DISTRITO FEDERAL",
-      "descricao": ""
+      "sigla": "DF"
     },
     {
-      "cod": "18",
-      "sigla": "ES",
-      "nome": "ESPÍRITO SANTO",
-      "descricao": ""
+      "sigla": "ES"
     },
     {
-      "cod": "23",
-      "sigla": "GO",
-      "nome": "GOIÁS",
-      "descricao": ""
+      "sigla": "GO"
     },
     {
-      "cod": "8",
-      "sigla": "MA",
-      "nome": "MARANHÃO",
-      "descricao": ""
+      "sigla": "MA"
     },
     {
-      "cod": "17",
-      "sigla": "MG",
-      "nome": "MINAS GERAIS",
-      "descricao": ""
+      "sigla": "MG"
     },
     {
-      "cod": "24",
-      "sigla": "MS",
-      "nome": "MATO GROSSO DO SUL",
-      "descricao": ""
+      "sigla": "MS"
     },
     {
-      "cod": "21",
-      "sigla": "MT",
-      "nome": "MATO GROSSO",
-      "descricao": ""
+      "sigla": "MT"
     },
     {
-      "cod": "3",
-      "sigla": "PA",
-      "nome": "PARÁ",
-      "descricao": ""
+      "sigla": "PA"
     },
     {
-      "cod": "12",
-      "sigla": "PB",
-      "nome": "PARAÍBA",
-      "descricao": ""
+      "sigla": "PB"
     },
     {
-      "cod": "13",
-      "sigla": "PE",
-      "nome": "PERNAMBUCO",
-      "descricao": ""
+      "sigla": "PE"
     },
     {
-      "cod": "10",
-      "sigla": "PI",
-      "nome": "PIAUÍ",
-      "descricao": ""
+      "sigla": "PI"
     },
     {
-      "cod": "25",
-      "sigla": "PR",
-      "nome": "PARANÁ",
-      "descricao": ""
+      "sigla": "PR"
     },
     {
-      "cod": "19",
-      "sigla": "RJ",
-      "nome": "RIO DE JANEIRO",
-      "descricao": ""
+      "sigla": "RJ"
     },
     {
       "cod": "11",
-      "sigla": "RN",
-      "nome": "RIO GRANDE DO NORTE",
-      "descricao": ""
+      "sigla": "RN"
     },
     {
-      "cod": "5",
-      "sigla": "RO",
-      "nome": "RONDÔNIA",
-      "descricao": ""
+      "sigla": "RO"
     },
     {
-      "cod": "1",
-      "sigla": "RR",
-      "nome": "RORAIMA",
-      "descricao": ""
+      "sigla": "RR"
     },
     {
-      "cod": "27",
-      "sigla": "RS",
-      "nome": "RIO GRANDE DO SUL",
-      "descricao": ""
+      "sigla": "RS"
     },
     {
-      "cod": "26",
-      "sigla": "SC",
-      "nome": "SANTA CATARINA",
-      "descricao": ""
+      "sigla": "SC"
     },
     {
-      "cod": "15",
-      "sigla": "SE",
-      "nome": "SERGIPE",
-      "descricao": ""
+      "sigla": "SE"
     },
     {
-      "cod": "20",
-      "sigla": "SP",
-      "nome": "SÃO PAULO",
-      "descricao": ""
+      "sigla": "SP"
     },
     {
-      "cod": "7",
-      "sigla": "TO",
-      "nome": "TOCANTINS",
-      "descricao": ""
-    },
-   ],
+      "sigla": "TO"
+    }
+  ]
 }
